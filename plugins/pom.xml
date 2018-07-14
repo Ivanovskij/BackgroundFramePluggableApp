@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>BlackBackgroundPlugin</module>
+        <module>RedBackgroundPlugin</module>
     </modules>
 
     <groupId>org.ivanovskiy.plugin</groupId>
