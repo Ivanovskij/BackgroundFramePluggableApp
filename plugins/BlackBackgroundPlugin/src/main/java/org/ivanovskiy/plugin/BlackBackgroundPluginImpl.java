@@ -13,7 +13,7 @@ public class BlackBackgroundPluginImpl implements AbstractBackgroundPlugin{
     private BackgroundContext bgContext;
 
     public void changeBackground() {
-        bgContext.getFrame().setBackground(Color.BLACK);
+        bgContext.getFrame().getContentPane().setBackground(Color.BLACK);
     }
 
     public void init(BackgroundContext bgContext) {
